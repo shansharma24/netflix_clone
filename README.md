@@ -37,6 +37,22 @@ npm run dev
 npm run build
 ```
 
+## Deployment
+
+### Vercel (Recommended)
+1. Connect your GitHub repository to Vercel
+2. Vercel will automatically detect the framework and build settings
+3. Deploy with one click
+
+### Netlify
+1. Run `npm run build`
+2. Upload the `dist` folder to Netlify
+3. Set up redirects for SPA routing
+
+### GitHub Pages
+1. Run `npm run build`
+2. Deploy the `dist` folder to GitHub Pages
+
 ## Live Demo
 
 The application features:
@@ -45,3 +61,7 @@ The application features:
 - Responsive navigation header
 - Interactive movie cards with hover effects
 - Netflix-style dark theme
+
+## Repository
+
+**GitHub Repository**: https://github.com/shansharma24/netflix_clone.git
